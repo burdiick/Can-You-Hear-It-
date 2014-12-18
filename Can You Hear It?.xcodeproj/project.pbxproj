@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		751BF41E19FC0A9E003294CA /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751BF41D19FC0A9E003294CA /* LessonViewController.swift */; };
 		753D512719FB10D8005690FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D512619FB10D8005690FA /* AppDelegate.swift */; };
 		753D512A19FB10D8005690FA /* Can_You_Hear_It_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 753D512819FB10D8005690FA /* Can_You_Hear_It_.xcdatamodeld */; };
-		753D512C19FB10D8005690FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D512B19FB10D8005690FA /* ViewController.swift */; };
+		753D512C19FB10D8005690FA /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D512B19FB10D8005690FA /* MainTableViewController.swift */; };
 		753D512F19FB10D8005690FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753D512D19FB10D8005690FA /* Main.storyboard */; };
 		753D513119FB10D8005690FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753D513019FB10D8005690FA /* Images.xcassets */; };
 		753D513419FB10D8005690FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753D513219FB10D8005690FA /* LaunchScreen.xib */; };
 		753D514019FB10D8005690FA /* Can_You_Hear_It_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D513F19FB10D8005690FA /* Can_You_Hear_It_Tests.swift */; };
+		753D514A19FB14F0005690FA /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D514919FB14F0005690FA /* Word.swift */; };
+		753D514C19FBBADA005690FA /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D514B19FBBADA005690FA /* Lesson.swift */; };
+		753D515019FBC8B9005690FA /* LessonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D514F19FBC8B9005690FA /* LessonList.swift */; };
+		753D515219FBD0C3005690FA /* CellForLessonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D515119FBD0C3005690FA /* CellForLessonList.swift */; };
+		753D515419FBD8D5005690FA /* CellForLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D515319FBD8D5005690FA /* CellForLesson.swift */; };
+		75E579FE19FE6E140089F3AD /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E579FD19FE6E140089F3AD /* Formatting.swift */; };
+		75E57A0019FECFE80089F3AD /* AddLessonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E579FF19FECFE80089F3AD /* AddLessonController.swift */; };
+		75E57A0319FEF2190089F3AD /* PickExistingWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E57A0219FEF2190089F3AD /* PickExistingWordController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +36,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		751BF41D19FC0A9E003294CA /* LessonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
 		753D512119FB10D8005690FA /* Can You Hear It?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Can You Hear It?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		753D512519FB10D8005690FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		753D512619FB10D8005690FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		753D512919FB10D8005690FA /* Can_You_Hear_It_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Can_You_Hear_It_.xcdatamodel; sourceTree = "<group>"; };
-		753D512B19FB10D8005690FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		753D512B19FB10D8005690FA /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		753D512E19FB10D8005690FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		753D513019FB10D8005690FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		753D513319FB10D8005690FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		753D513919FB10D8005690FA /* Can You Hear It?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can You Hear It?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		753D513E19FB10D8005690FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		753D513F19FB10D8005690FA /* Can_You_Hear_It_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_You_Hear_It_Tests.swift; sourceTree = "<group>"; };
+		753D514919FB14F0005690FA /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Word.swift; path = ../Word.swift; sourceTree = "<group>"; };
+		753D514B19FBBADA005690FA /* Lesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		753D514F19FBC8B9005690FA /* LessonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonList.swift; sourceTree = "<group>"; };
+		753D515119FBD0C3005690FA /* CellForLessonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellForLessonList.swift; sourceTree = "<group>"; };
+		753D515319FBD8D5005690FA /* CellForLesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellForLesson.swift; sourceTree = "<group>"; };
+		75B0106E1A1E5F9F00B55C68 /* Can You Hear It?.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Can You Hear It?.entitlements"; sourceTree = "<group>"; };
+		75E579FD19FE6E140089F3AD /* Formatting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Formatting.swift; path = ../Formatting.swift; sourceTree = "<group>"; };
+		75E579FF19FECFE80089F3AD /* AddLessonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLessonController.swift; sourceTree = "<group>"; };
+		75E57A0219FEF2190089F3AD /* PickExistingWordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickExistingWordController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +98,15 @@
 		753D512319FB10D8005690FA /* Can You Hear It? */ = {
 			isa = PBXGroup;
 			children = (
+				75B0106E1A1E5F9F00B55C68 /* Can You Hear It?.entitlements */,
+				75E579FD19FE6E140089F3AD /* Formatting.swift */,
+				753D515119FBD0C3005690FA /* CellForLessonList.swift */,
+				753D515319FBD8D5005690FA /* CellForLesson.swift */,
+				753D514F19FBC8B9005690FA /* LessonList.swift */,
+				753D514B19FBBADA005690FA /* Lesson.swift */,
+				753D514919FB14F0005690FA /* Word.swift */,
 				753D512619FB10D8005690FA /* AppDelegate.swift */,
-				753D512B19FB10D8005690FA /* ViewController.swift */,
+				75E57A0119FEF1B50089F3AD /* Controllers */,
 				753D512D19FB10D8005690FA /* Main.storyboard */,
 				753D513019FB10D8005690FA /* Images.xcassets */,
 				753D513219FB10D8005690FA /* LaunchScreen.xib */,
@@ -113,6 +139,17 @@
 				753D513E19FB10D8005690FA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75E57A0119FEF1B50089F3AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				753D512B19FB10D8005690FA /* MainTableViewController.swift */,
+				751BF41D19FC0A9E003294CA /* LessonViewController.swift */,
+				75E579FF19FECFE80089F3AD /* AddLessonController.swift */,
+				75E57A0219FEF2190089F3AD /* PickExistingWordController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +201,12 @@
 				TargetAttributes = {
 					753D512019FB10D8005690FA = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = J8E3694U9F;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					753D513819FB10D8005690FA = {
 						CreatedOnToolsVersion = 6.1;
@@ -215,8 +258,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				753D512C19FB10D8005690FA /* ViewController.swift in Sources */,
+				75E579FE19FE6E140089F3AD /* Formatting.swift in Sources */,
+				753D512C19FB10D8005690FA /* MainTableViewController.swift in Sources */,
+				753D515419FBD8D5005690FA /* CellForLesson.swift in Sources */,
+				75E57A0019FECFE80089F3AD /* AddLessonController.swift in Sources */,
+				753D514A19FB14F0005690FA /* Word.swift in Sources */,
+				75E57A0319FEF2190089F3AD /* PickExistingWordController.swift in Sources */,
 				753D512719FB10D8005690FA /* AppDelegate.swift in Sources */,
+				753D515019FBC8B9005690FA /* LessonList.swift in Sources */,
+				753D515219FBD0C3005690FA /* CellForLessonList.swift in Sources */,
+				753D514C19FBBADA005690FA /* Lesson.swift in Sources */,
+				751BF41E19FC0A9E003294CA /* LessonViewController.swift in Sources */,
 				753D512A19FB10D8005690FA /* Can_You_Hear_It_.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +394,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Can You Hear It?/Can You Hear It?.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Can You Hear It?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +408,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Can You Hear It?/Can You Hear It?.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Can You Hear It?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -411,6 +471,7 @@
 				753D514519FB10D8005690FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		753D514619FB10D8005690FA /* Build configuration list for PBXNativeTarget "Can You Hear It?Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +480,7 @@
 				753D514819FB10D8005690FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
